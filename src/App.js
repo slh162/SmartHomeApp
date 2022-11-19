@@ -1,6 +1,6 @@
 import "./App.css";
 import React, { useState } from "react";
-import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
+import {  HashRouter, Routes, Route } from "react-router-dom";
 import HouseSelect from "./components/ChooseHouse/HouseSelect";
 import Home from "./components/Home/Home";
 import Homes from "./components/ChooseHouse/homes";
@@ -47,7 +47,7 @@ function App() {
   return (
     <div className="App">
       <h1 style={{ textAlign: "center" }}>Smart Home</h1>
-      <Router>
+      <HashRouter>
         <Routes>
           <Route path="/" element={<Home rooms={rooms} />} />
           <Route path="/addroom" element={<HouseSelect addRoom={addRoom} />} />
@@ -69,7 +69,7 @@ function App() {
             );
           })}
         </Routes>
-      </Router>
+      </HashRouter>
     </div>
   );
 }
