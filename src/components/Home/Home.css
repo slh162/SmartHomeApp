@@ -1,0 +1,26 @@
+#home{
+    margin-left: 420px;
+    border: 2px rgb(140, 148, 130) solid;
+    height: 400px;
+    width: 450px;
+}
+#add{
+    border-radius: 50px;
+    background-color: rgb(81, 81, 236);
+    width: 80px;
+    height: 70px;
+    font-size: 35px;
+    cursor: pointer;
+    margin-top: 70px;
+    margin-left: 180px;
+}
+#homecard{
+    height: 100px;
+    width: 110px;
+    margin-top: 25px;
+    margin-left: 30px;
+    font-size: 25px;
+    font-family: Arial, Helvetica, sans-serif;
+    border: 1px rgb(116, 116, 247) solid;
+    cursor: pointer;
+}
